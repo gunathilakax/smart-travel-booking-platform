@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flight-service" />
         <module name="user-service" />
+        <module name="hotel-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="booking-service" target="17" />
-      <module name="hotel-service" target="17" />
       <module name="notification-service" target="17" />
       <module name="payment-service" target="17" />
     </bytecodeTargetLevel>
