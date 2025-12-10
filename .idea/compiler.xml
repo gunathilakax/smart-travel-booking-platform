@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user-service" />
+        <module name="payment-service" />
         <module name="flight-service" />
         <module name="notification-service" />
         <module name="hotel-service" />
@@ -15,7 +16,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="booking-service" target="17" />
-      <module name="payment-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
